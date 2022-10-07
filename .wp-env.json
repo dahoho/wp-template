@@ -1,0 +1,19 @@
+{
+  "core": "https://ja.wordpress.org/latest-ja.zip",
+  "themes": ["./wp/wp-content/themes/template"],
+  "mappings": {
+    "wp-content/uploads": "./wp/wp-content/uploads"
+  },
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/wp-multibyte-patch.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/all-in-one-wp-security-and-firewall.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/tinymce-advanced.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/disable-gutenberg.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/backwpup.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/seo-simple-pack.latest-stable.zip"
+  ],
+  "config": {
+    "WP_DEBUG": true,
+    "WP_DEBUG_LOG": true
+  }
+}
